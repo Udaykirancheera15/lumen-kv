@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "lumen-core",
+    "lumen-server",
+    "lumen-bench",
+]
+resolver = "2"

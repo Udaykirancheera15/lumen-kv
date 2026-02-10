@@ -1,0 +1,23 @@
+[package]
+name    = "lumen-server"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "lumen-server"
+path = "src/main.rs"
+
+[dependencies]
+lumen-core = { path = "../lumen-core" }
+
+tokio               = { version = "1",    features = ["full"] }
+tonic               = "0.10"
+tonic-reflection    = "0.10" 
+prost               = "0.12"
+bytes               = "1"
+anyhow              = "1"
+tracing             = "0.1"
+tracing-subscriber  = { version = "0.3", features = ["env-filter", "fmt"] }
+
+[build-dependencies]
+tonic-build = "0.10"
