@@ -34,6 +34,9 @@ LumenKV follows a modular systems architecture:
     
 3.  **Observability**:
     * Structured logging via `tracing` and `tracing-subscriber`.
+  
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/77a43fb3-225a-4243-bbd2-46dea6c3d24f" />
+
 
 ## 📦 Installation & Usage
 
